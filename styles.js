@@ -21,7 +21,7 @@ $(document).ready(function(){
     })
     
 /********************************Curosal ********************************/
-    $('.owl-carousel').owlCarousel({
+  /*  $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
@@ -36,7 +36,7 @@ $(document).ready(function(){
             items:5
         }
     }
-})
+}) */
 /*********************Portolio Section ***************************/
     $(".button-group button").click(function(){
         $(this).addClass("active-btn").siblings().removeClass("active-btn");
