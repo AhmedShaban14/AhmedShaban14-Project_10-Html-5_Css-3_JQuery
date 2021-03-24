@@ -18,7 +18,7 @@ $(document).ready(function(){
         controlsColor: 'white',
         showVideoInformations: 0,
         width: 1000
-    })
+    });
     
 /********************************Curosal ********************************/
   /*  $('.owl-carousel').owlCarousel({
@@ -48,7 +48,7 @@ $(document).ready(function(){
         $(".images").contents().filter("."+selectedFilter).fadeIn();
         
         },400)
-    })
+    });
 
 /*********************************Portfolio Section***********************/
     $("section.choose ul li").click(function(){
@@ -61,7 +61,7 @@ $(document).ready(function(){
             $("."+selectedFilter).fadeIn();
         
         },400)
-    })
+    });
     
 /************************* Wow Plugin Using Css animate *************************/
       new WOW().init();
